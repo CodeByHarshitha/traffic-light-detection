@@ -1,26 +1,23 @@
-# traffic-light-detection
 # Traffic Light Detection
 
-A real-time traffic light detection system using Python and OpenCV. This project can detect the state of traffic lights (red, yellow, green) from video streams or images.
+This project implements a real-time traffic light detection system using Python and OpenCV.
 
-## Features
+---
 
-- Detect traffic lights in videos or webcam feed.
-- Identify the current state: **Red**, **Yellow**, or **Green**.
-- Capture screenshots of detected frames.
-- Save annotated videos with detected traffic lights.
+## Project Files
 
-## Requirements
+The main code file is `traffic_light_detection.py`.  
+Other resources like videos and large data files are **not included** in this repository because GitHub web uploads only support files up to 25 MB.
 
-- Python 3.x
-- OpenCV (`pip install opencv-python`)
-- NumPy (`pip install numpy`)
+You can access all the project data, including videos, from the following link:
 
-## Usage
+[Project Data & Videos (Google Drive)](https://drive.google.com/drive/folders/1MjEg0rq3-J5QeKkgg84RyUMJJZRal_5r?usp=sharing)
 
-1. Clone the repository:
+---
 
+## How to Run
+
+1. Clone the repository.
+2. Install required Python packages:  
 ```bash
-git clone https://github.com/CodeByHarshitha/traffic-light-detection.git
-
-
+pip install opencv-python numpy
